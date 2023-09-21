@@ -1,0 +1,626 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #ff063c;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list li {
+    list-style: none;
+    transition: ease 0.40s;
+    
+}
+.list li:hover{
+    color: #ff063c;
+    cursor: pointer;
+    /* transition: ease 0.30s; */
+    transform: scale(1.1);
+}
+.menulist {
+    display: none;
+}
+
+/* myname section1 */
+.myname {
+    /* border: 2px solid red; */
+    padding: 10px 10%;
+    text-align: center;
+    height: 700px;
+}
+
+.box1 {
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 800px;
+    background: linear-gradient(#3b82f6, red);
+}
+
+.box2 {
+    /* border: 2px solid green; */
+    height: 600px;
+    width: 800px;
+    background-color: green;
+    position: absolute;
+    top: 120px;
+    left: 40rem;
+    background: linear-gradient(#6d28d9, #6366f1);
+}
+
+.box3 {
+    /* border: 2px solid blue; */
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+    position: absolute;
+    top: 65px;
+    left: 40rem;
+    background: linear-gradient(#e11d48, #d946ef);
+}
+
+.box4 {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 500px;
+    /* background-color: red; */
+    position: absolute;
+    top: 150px;
+    left: 12rem;
+    background-image: url('img/pro.jpeg');
+}
+
+.box4 img {
+    object-fit: fill;
+}
+
+.story {
+    /* border: 2px solid white; */
+    height: 300px;
+    padding: 10rem 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.story h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.story p {
+    font-size: 2rem;
+    color: white;
+}
+
+.story button {
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    background-color: #d946ef;
+    border: 2px solid white;
+}
+
+/* section2 of skills */
+.skills {
+    /* border: 2px solid red; */
+    padding: 10px 10%;
+}
+
+.skills-set {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 1rem 0rem;
+    grid-gap: 3rem;
+}
+
+.box h1 {
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logos i {
+    font-size: 20px;
+}
+
+.logos {
+    margin-bottom: 1rem;
+    background-color: red;
+    display: inline-block;
+    border-radius: 48%;
+    padding: 1rem;
+    align-items: center;
+}
+
+#b1 {
+    background-color: #6366f1;
+}
+
+#b2 {
+    background-color: #a21caf;
+}
+
+#b3 {
+    background-color: #ff063c;
+}
+
+/* section 3 starts here */
+.aboutme {
+    /* border: 2px solid red; */
+    padding: 10px 10%;
+    width: 100%;
+    height: 600px;
+}
+
+.about-me {
+    position: absolute;
+}
+
+.image1 img {
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+}
+
+.about-me .image2 img {
+    max-width: 80%;
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+
+.image3 {
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    background: linear-gradient(#e11d48, #e11d48, #c026d3);
+}
+
+.image4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 270px;
+    left: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image4 h1 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.image4 p {
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.image4 a {
+    font-size: 20px;
+    color: #ff063c;
+    text-decoration: none;
+}
+
+/* section 4 is starting */
+.tech {
+    /* border: 2px solid red; */
+    max-height: 100%;
+    padding: 10px 10%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.technologies h1 {
+    margin-bottom: 2rem;
+}
+
+#techno {
+    font-size: 2rem;
+}
+
+#techno span {
+    color: #ff063c;
+}
+
+.containers {
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.container {
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+#c2 {
+    border: 1px solid blue;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#c4 {
+    border: 1px solid blue;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#c6 {
+    border: 1px solid blue;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.icons i {
+    font-size: 3rem;
+    color: #e11d48;
+}
+
+/* section 5 is starting */
+.myjourney {
+    /* border: 2px solid red; */
+    padding: 10px 10%;
+    background-color: #7f44c0;
+    width: 80%;
+    height: 900px;
+    /* display: grid; */
+    
+}
+
+.heads {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.myjourney h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.journey__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+}
+
+.corners {
+    height: 400px;
+    width: 400px;
+    margin: 1rem;
+
+}
+
+.journey {
+    position: relative;
+}
+
+#con1 {
+    background: linear-gradient(#a3e635, #fff);
+    position: absolute;
+    left: 900px;
+    top: -154px;
+    bottom: 174px;
+}
+
+#con2 {
+    background-image: url('img/keys.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    top: 80px;
+    right: 0px;
+    position: absolute;
+}
+
+#con4 {
+    background-color: yellow;
+    position: absolute;
+    left: 800px;
+    top: 0px;
+    background-image: url('img/keys2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    z-index: 1;
+
+}
+
+#con3 {
+    background-color: #fff;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 300px;
+    left: 850px;
+    z-index: 0;
+    color: #ff063c;
+
+
+}
+
+#con3 h1 {
+    position: relative;
+    top: 370px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+/* contact us */
+.contact {
+    padding: 3rem;
+    /* border: 2px solid red; */
+    /* border: 2px solid red;
+    text-align: center;
+    width: 100%;
+    padding: 5rem; */
+    /* align-items: center; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+} 
+
+.contact h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+#me {
+    font-size: 3rem;
+}
+
+.links i {
+    /* background-color: red; */
+    font-size: 1.8rem;
+    border-radius: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    color: white;
+}
+.contact_me{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.bx-current-location {
+    background-color: #ff063c;
+}
+
+.bx-mobile {
+    background-color: #9333ea;
+}
+
+.bx-envelope {
+    background-color: #1d4ed8;
+}
+
+.contact_me {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    margin-top: 3rem;
+}
+
+#findme{
+    padding: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#findme span a{
+    color: #ff063c;
+    text-decoration: none;
+}
+
+/* Responsiveness laptop-1024px */
+@media screen and (max-width: 1024px) {
+    nav{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .menulist{
+        display: block;
+        font-size: 2.1rem;
+        align-items: center;
+
+    }
+    .menulist:hover{
+        cursor: pointer;
+    }
+    .myname .box2{
+        display: none;
+    }
+    .myname .box4{
+        position: absolute;
+        left: 200px;
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        z-index: 0;
+
+    }
+    .myname .box3{
+        position: absolute;
+        left: 500px;
+        top: 200px;
+        width: 300px;
+        height: 300px;
+        z-index: 1;
+    }
+    .story h1{
+        top: 0px;
+        font-size: 1.3rem;
+    }
+    .story p{
+        font-size: 1rem;
+    }
+    .story{
+        position: absolute;
+        bottom: 90px;
+    }
+    .myname .box1{
+        width: 100%;
+    }
+
+    /* for third block content */
+    .about-me .image2{
+        display: none;
+    }
+    .about-me .image3{
+        display: none;
+    }
+    .about-me .image4{
+        display: none;
+    }
+
+    /* for fifth block content */
+    #con1{
+        display: none;
+    }
+    #con2{
+        display: none;
+    }
+    #con3{
+        display: none;
+    }
+    #con4{
+        display: none;
+    }
+    .myjourney{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 10%;
+    } 
+}
+
+/* Responsiveness tablet - 768px */
+@media screen and (max-width: 768px){
+    .myname .box4{
+        position: absolute;
+        left: 100px;
+    }
+    .myname .box3{
+        position: absolute;
+        left: 320px;
+    }
+    .contact_me{
+        padding: 0;
+    }
+}
+
+/* Responsiveness mobile L - 425px */
+@media screen and (max-width: 425px){
+    nav{
+        width: 100%;
+        padding: 0.5rem;
+        
+    }
+    .myname{
+        padding: 0.5rem;
+    }
+    .myname .box3{
+        display: none;
+    }
+    .myname .box4{
+        position: absolute;
+        left: 60px;
+    }
+    .contact_me{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .contact_me h1{
+        margin-bottom: 1rem;
+    }
+    
+    
+
+}
+
+/* Responsiveness mobile - m - 375px */
+@media screen and (max-width: 375px){
+    nav{
+        width: 100%;
+        padding: 0.5rem;
+        
+    }
+    .myname .box4{
+        height: 230px;
+        width: 230px;
+    }
+    .about-me .image1{
+        width: 90%;
+    }
+    .myjourney{
+        width: 80%;
+        padding: 10px 5%;
+        height: 930px;
+        margin-top: 2rem;
+    }
+    .myname{
+        padding: 10px 5%;
+    }
+    .contact{
+        padding: 1rem;
+    }
+    #me{
+        font-size: 2rem;
+    }
+    #findme{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .myjourney{
+        display: none;
+    }
+
+}
